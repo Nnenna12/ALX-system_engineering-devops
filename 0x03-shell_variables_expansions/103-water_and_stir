@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -line 'print if $. % 2 == 1'
+echo $(prinftf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((%#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'nehlnort')
